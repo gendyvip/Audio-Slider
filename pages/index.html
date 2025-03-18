@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Audio Slider</h1>
+        <audio id="audio" src="../media/1.mp3" controls autoplay></audio>
+        <div class="btns">
+            <button id="before" onclick="before()">
+                < </button>
+                    <div class="custombtns">
+                        <button id="play" onclick="playAudio()">Play</button>
+                        <button id="stop" onclick="stopAudio()">Stop</button>
+                    </div>
+                    <button id="after" onclick="after()">></button>
+        </div>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
